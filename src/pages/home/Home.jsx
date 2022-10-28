@@ -1,0 +1,15 @@
+import Swiper from 'swiper';
+import 'swiper/css'
+import Header from '../../components/Header'
+
+import './home.css'
+
+const Home = () => {
+  return (
+    <div>
+      < Header />
+    </div>
+  )
+}
+
+export default Home
