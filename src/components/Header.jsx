@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from '../images/logo.png'
+import Logo from '../images/logo55.png'
+
 import {Link} from 'react-router-dom'
 
 const Header = () => {
@@ -17,7 +19,7 @@ const Header = () => {
         <div className="main__header-right">
           <div className="main__header-circle"></div>
           <div className="main__header-image">
-            <img src={Image} alt="Main Header" />
+            <img src={Logo} alt="Main Header" />
           </div>
         </div>
       </div>

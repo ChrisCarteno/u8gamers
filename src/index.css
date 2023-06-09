@@ -9,11 +9,11 @@
 }
 
 :root {
-  --primary-hue: 210;
+  --primary-hue: 200;
   --gray-hue: 240;
-  --color-primary: #1C2C54;
+  --color-primary: #6F2232;
   --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
-  --color-secondary: #ffb116;
+  --color-secondary: #C3073F;
   --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
   --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
   --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
@@ -34,7 +34,7 @@ body {
   color: var(--color-gray-200);
   line-height: 1.7;
   overflow-x: hidden;
-  background: #528265 url('./images/bg_texture.png')
+  background: #1A1A1D url('./images/bg_texture.png')
 }
 
 .container {
