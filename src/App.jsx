@@ -5,7 +5,7 @@ import Events from './pages/events/Events'
 import Home from './pages/home/Home'
 import News from './pages/news/News'
 import Roster from './pages/roster/Roster'
-import shop from './pages/shop/Shop'
+import Shop from './pages/shop/Shop'
 
 import Footer from './components/Footer';
 import NavBar from "./components/NavBar";
@@ -21,7 +21,8 @@ function App() {
         <Route path="/events" element={<Events/>} />
         <Route path="/news" element={<News/>} />
         <Route path="/roster" element={<Roster/>} />
-        <Route path="/shop" element={<shop/>} />
+        <Route path="/shop" element={<Shop/>} />
+        
       </Routes>
       <Footer />
     </BrowserRouter>

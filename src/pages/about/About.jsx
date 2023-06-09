@@ -5,8 +5,11 @@ import './about.css'
 const About = () => {
   return (
     <div>
-    <h1> U8 GAMERS </h1>
-
+      <br/>
+      <br/>
+      <h1> U8 GAMERS </h1>
+      this is the about page
+      <p className="something">this is something</p>
     </div>
   )
 }
