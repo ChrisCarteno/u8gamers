@@ -17,7 +17,13 @@ function App() {
       <NavBar />
       <Routes>
         <Route index element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/events" element={<Events/>} />
+        <Route path="/news" element={<News/>} />
+        <Route path="/roster" element={<Roster/>} />
+        <Route path="/shop" element={<shop/>} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

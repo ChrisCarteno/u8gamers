@@ -4,7 +4,10 @@ import './about.css'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+    <h1> U8 GAMERS </h1>
+
+    </div>
   )
 }
 
