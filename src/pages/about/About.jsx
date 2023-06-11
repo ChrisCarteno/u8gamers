@@ -11,10 +11,11 @@ const About = () => {
         <div className="main__header-left">
           <h4>#GetGooeyWithIt</h4>
           <h1>Join The Legends Of The Gaming World</h1>
-          <p>
-            Pum Da Da Da Dun We are gamers
-          </p>
-          <Link to="/plans" className='btn lg'> Get Started </Link>
+          <Link to="/shop" className='btn lg'> Shop </Link>
+          <Link to="/esports" className='btn lg'> Roster </Link>
+          <Link to="/events" className='btn lg'> Events </Link>
+          <Link to="/news" className='btn lg'> News </Link>
+          <br></br>
         </div>
         <div className="main__header-right">
           <div className="main__header-circle"></div>
