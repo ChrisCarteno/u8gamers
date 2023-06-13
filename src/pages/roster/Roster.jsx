@@ -30,7 +30,7 @@ class CardBody extends React.Component {
   render() {
     return (
       <div className="card-body">
-        <p className="date">March 20 2015</p>
+        <p className="date">{this.props.signDate}</p>
         
         <h2>{this.props.title}</h2>
         
@@ -45,9 +45,9 @@ class CardBody extends React.Component {
 class Card extends React.Component {
   render() {
     return (
-      <article className="card">
-        <CardHeader image={'https://source.unsplash.com/user/erondu/600x400'}/>
-        <CardBody title={'What happened in Thialand?'} text={'Kayaks crowd Three Sister Springs, where people and manatees maintain controversial coexistence'}/>
+      <article className="cardGamer">
+        <CardHeader image={''}/>
+        <CardBody signDate={"March 20 2015"} title={'Ronky Kong'} text={'Ronky Is one of the greatest smash players in Coachella Valley Scene'}/>
       </article>
     )
   }
@@ -55,13 +55,19 @@ class Card extends React.Component {
 function Roster() {
   return (
     <div>
-      <header className="main__header">
       <div className="container main__header-container">
-        <h1>Hello World</h1>
-        <h2>Welcome to See our Roster</h2>
+      <div className="container main__header-container">
+        </div>
+          <h4>#GetGooeyWithIt</h4>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
         <Card />
       </div>
-    </header>
     </div>
   )
 }

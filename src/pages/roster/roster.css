@@ -2,11 +2,11 @@
   width:280px;
   display: block;
   margin: 60px auto;
-  box-shadow: 10px 5px 40px 20px darken(#341cac, 5%);
+  box-shadow: 10px 5px 40px 20px darken(#921cac, 5%);
   transition: .25s;
   
   &:hover {
-    box-shadow: 10px 5px 40px 20px darken(#341cac, 10%);
+    box-shadow: 10px 5px 40px 20px darken(#921cac, 10%);
     cursor: pointer;
     
     .button-primary {
@@ -18,19 +18,20 @@
 .card-header {
   height: 150px;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   width:100%;
   background-size:cover;
-  color:#fff;
+  color:#000000;
 }
 
 .card-header--title {
   text-transform: uppercase;
   margin: 0;
+  color: green;
 }
 
 .card-body {
-  padding: 15px;
+  padding: 10px;
   background-color:#fff;
   width:100%;
 }
@@ -52,7 +53,7 @@
   box-shadow: none;
   font-family: inherit;
   background-color:transparent;
-  color: #341cac;
+  color: #921cac;
   font-size: 15px;
   transition:.25s;
   
