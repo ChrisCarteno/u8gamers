@@ -9,7 +9,7 @@ export const links = [
     },
     {
         name: "Roster",
-        path: '/Esports'
+        path: '/roster'
     },
     {
         name: "Events",
