@@ -4,22 +4,22 @@ import './roster.css'
 import FrannyImg from '../../images/Franny.png'
 import GoonerImage from '../../images/GoonerRIkcy.png'
 import JoelTank from '../../images/JoelTank.png'
-import NateDog from '../../images/NateDog.jpg'
+import u8CHuy from '../../images/u8CHuy.png'
 import PabloMinerals from '../../images/PabloMinerals.png'
 import PETERDAYS from '../../images/PETERDAYS.jpg'
 import ROACHATA from '../../images/ROACHATA.jpg'
-import u8CHuy from '../../images/u8CHuy.png'
+import NateDog from '../../images/NateDog.jpg'
 
 class CardHeader extends React.Component {
   render() {
     const { image } = this.props;
     var style = { 
-        backgroundImage: 'url(' + "../images/Franny.png" + ')',
+        backgroundImage: 'url(' + image + ')',
     };
     return (
-      <header style={style} id={image} className="card-header">
+      <header id={image} className="card-header">
         <h4 className="card-header--title">News</h4>
-        <img src={FrannyImg} alt="Logo" />
+        <img src={image} alt="Logoooo" />
       </header>
     )
   }
@@ -55,8 +55,8 @@ class Card extends React.Component {
   render() {
     return (
       <article className="cardGamer">
-        <CardHeader image=''/>
-        <CardBody signDate={"March 20 2015"} title={'Ronky Kong'} text={'Ronky Is one of the greatest smash players in Coachella Valley Scene'}/>
+        <CardHeader image={this.props.image}/>
+        <CardBody signDate={this.props.signDate} title={this.props.title} text={this.props.text}/>
       </article>
     )
   }
@@ -68,14 +68,14 @@ function Roster() {
       <div className="container main__header-container">
         </div>
           <h4>#GetGooeyWithIt</h4>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card image={FrannyImg} signDate={"March 20th 2014"} title={"Ricky Caldo"} text={"one of the great gamers of all time"}/>
+        <Card image={GoonerImage} signDate={"March 20th 2014"} title={"Gooner"} text={"one of the great gamers of all time"}/>
+        <Card image={JoelTank} signDate={"March 20th 2014"} title={"JoelTank"} text={"one of the great gamers of all time"}/>
+        <Card image={u8CHuy} signDate={"March 20th 2014"} title={"u8CHuy"} text={"one of the great gamers of all time"}/>
+        <Card image={PabloMinerals} signDate={"March 20th 2014"} title={"PabloMinerals"} text={"one of the great gamers of all time"}/>
+        <Card image={PETERDAYS} signDate={"March 20th 2014"} title={"PETERDAYS"} text={"one of the great gamers of all time"}/>
+        <Card image={ROACHATA} signDate={"March 20th 2014"} title={"ROACHATA"} text={"one of the great gamers of all time"}/>
+        <Card image={NateDog} signDate={"March 20th 2014"} title={"NateDog"} text={"one of the great gamers of all time"}/>
       </div>
     </div>
   )
