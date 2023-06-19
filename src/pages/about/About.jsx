@@ -1,6 +1,7 @@
-import React from 'react'
+import * as React from 'react';
 import {Link} from 'react-router-dom'
 import Logo from '../../images/logo55.png'
+import Card from '@material-ui/core/Card'
 
 import './about.css'
 
@@ -25,6 +26,7 @@ const About = () => {
         <br/>
         Visit our website at <a href='https://www.u8gamers.com' alt="u8gamers">www.u8gamers.com</a> and discover the power of play like never before. Let's #GameOnTogether!
       </h3>
+      <Card variant="outlined">HELLO WORLD!</Card>
     </header>
 
   </div>
