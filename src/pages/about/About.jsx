@@ -8,8 +8,7 @@ import './about.css'
 const About = () => {
   return (
     <div>
-    <header className="main__header">
-      <h1>About Us</h1>
+    <img src={Logo} alt="Main Header" />
       <div className="aboutSection">
         Elevate Your Game: At u8 Gamers, we believe in pushing the boundaries of what's possible in gaming. Whether you're an aspiring pro gamer or a casual enthusiast, our team of experienced coaches and mentors will help you refine your skills, develop winning strategies, and reach new heights of achievement.
         <br/>
@@ -26,8 +25,6 @@ const About = () => {
         <br/>
         Visit our website at <a href='https://www.u8gamers.com' alt="u8gamers">www.u8gamers.com</a> and discover the power of play like never before. Let's #GameOnTogether!
       </div>
-    </header>
-
   </div>
   )
 }

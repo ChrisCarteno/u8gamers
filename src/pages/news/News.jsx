@@ -19,10 +19,10 @@ const News = () => {
       </div>
       <div className="main__header-right">
         <div className="main__header-circle"></div>
-        <div className="main__header-image">
+          <div className="main__header-image">
           <img src={Logo} alt="Main Header" />
+          </div>
         </div>
-      </div>
     </div>
   </header>
   )
