@@ -1,10 +1,18 @@
 .aboutSection{
+    margin-top: 1rem;
     padding: 1rem 0rem 1rem 1rem;
-    background-color: white;
-    color: #6F2232;
+    background-color: #6F2232;
+    color: white;
     border-radius: 10px;
     margin-right: 2rem;
     margin-left: 2rem;
     font-size: large;
     font-weight: 600;
+}
+
+.aboutHeader{
+    margin-top: 7rem;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    border-radius: 10px;
 }

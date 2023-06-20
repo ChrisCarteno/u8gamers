@@ -8,7 +8,7 @@ import './about.css'
 const About = () => {
   return (
     <div>
-    <img src={Logo} alt="Main Header" />
+      <h1 className='aboutHeader'>ABOUT U8</h1>
       <div className="aboutSection">
         Elevate Your Game: At u8 Gamers, we believe in pushing the boundaries of what's possible in gaming. Whether you're an aspiring pro gamer or a casual enthusiast, our team of experienced coaches and mentors will help you refine your skills, develop winning strategies, and reach new heights of achievement.
         <br/>
