@@ -9,8 +9,8 @@ const About = () => {
   return (
     <div>
     <header className="main__header">
-      <h1>Find Out The Latest Happening With U8</h1>
-      <h3>
+      <h1>About Us</h1>
+      <div className="aboutSection">
         Elevate Your Game: At u8 Gamers, we believe in pushing the boundaries of what's possible in gaming. Whether you're an aspiring pro gamer or a casual enthusiast, our team of experienced coaches and mentors will help you refine your skills, develop winning strategies, and reach new heights of achievement.
         <br/>
         Join a Thriving Community: Gaming is more than just playing—it's about connecting with like-minded individuals who share your passion. When you become part of the u8 Gamers community, you'll find a vibrant and welcoming group of fellow gamers who will become your teammates, friends, and lifelong companions on your gaming journey.
@@ -25,8 +25,7 @@ const About = () => {
         Join u8 Gamers today and embark on a thrilling gaming adventure that will redefine your gaming experience. Together, we'll conquer new challenges, forge unforgettable friendships, and create gaming memories that will last a lifetime. Get ready to level up with u8 Gamers—the ultimate gaming organization for champions like you!
         <br/>
         Visit our website at <a href='https://www.u8gamers.com' alt="u8gamers">www.u8gamers.com</a> and discover the power of play like never before. Let's #GameOnTogether!
-      </h3>
-      <Flexbox />
+      </div>
     </header>
 
   </div>
