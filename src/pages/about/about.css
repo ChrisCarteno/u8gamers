@@ -16,3 +16,7 @@
     font-family: 'Press Start 2P';
     border-radius: 10px;
 }
+
+a[href="https://www.u8gamers.com"]{
+    color: black;
+}
