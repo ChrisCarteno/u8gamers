@@ -19,7 +19,7 @@ const About = () => {
         <br/>
         Professional Support at Your Fingertips: We understand the challenges that gamers face, from technical issues to mental fatigue. That's why u8 Gamers provides comprehensive support services to ensure you can focus on what you do best—gaming. Our dedicated team is available round-the-clock to assist you with technical queries, mental well-being, and any other concerns you may have.
         <br/>
-        Unleash Your Creativity: Gaming is not just about winning; it's a canvas for your creativity. At u8 Gamers, we celebrate your unique style and help you express yourself through content creation, streaming, and esports journalism. Unleash your creativity and become a respected influencer in the gaming community.
+        Unleash Your Creativity: Gaming is not just about winning it's a canvas for your creativity. At u8 Gamers, we celebrate your unique style and help you express yourself through content creation, streaming, and esports journalism. Unleash your creativity and become a respected influencer in the gaming community.
         <br/>
         Join u8 Gamers today and embark on a thrilling gaming adventure that will redefine your gaming experience. Together, we'll conquer new challenges, forge unforgettable friendships, and create gaming memories that will last a lifetime. Get ready to level up with u8 Gamers—the ultimate gaming organization for champions like you!
         <br/>
