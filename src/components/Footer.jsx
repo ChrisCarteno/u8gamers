@@ -47,6 +47,7 @@ const Footer = () => {
          </div>
        </div>
      </div>
+    <div>&copy; Copyright 2023 Weaversdev.com</div>
     </div>
  </footer>
   )
