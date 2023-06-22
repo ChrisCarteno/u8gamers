@@ -93,6 +93,6 @@ ul{
 }
 .copyright{
   color:rgb(172, 202, 23);
-  position : absolute;
+  position : relative;
   float:right;
 }
