@@ -91,3 +91,8 @@ ul{
     width: 100%;
 }
 }
+.copyright{
+  color:rgb(172, 202, 23);
+  position : absolute;
+  float:right;
+}

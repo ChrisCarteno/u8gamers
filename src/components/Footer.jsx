@@ -26,7 +26,7 @@ const Footer = () => {
          <ul>
             <li><a href="/shop">shop</a></li>
             <li><a href="/shop#products">products</a></li>
-            <li><a href="/shop#cart">cart</a></li> 
+            <li><a href="/shop#cart">cart</a></li>
          </ul>
        </div>
        <div className="footer-col">
@@ -47,7 +47,7 @@ const Footer = () => {
          </div>
        </div>
      </div>
-    <div>&copy; Copyright 2023 Weaversdev.com</div>
+    <div className='copyright'>&copy; Copyright 2023 <a target="_blank" href='https://crm.weaversdev.com'>Weaversdev.com</a></div>
     </div>
  </footer>
   )
