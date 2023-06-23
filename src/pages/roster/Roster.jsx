@@ -13,14 +13,11 @@ import NateDog from '../../images/NateDog.jpg'
 class CardHeader extends React.Component {
   render() {
     const { image } = this.props;
-    var style = {
-        backgroundImage: 'url(' + image + ')',
-    };
     return (
-      <header id={image} className="card-header">
+      <div id={image} className="card-header">
+        <img src={image} alt="Logoooo" height={"50px"} width={"50px"}/>
         <h4 className="card-header--title">News</h4>
-        <img src={image} alt="Logoooo" />
-      </header>
+      </div>
     )
   }
 }
