@@ -14,7 +14,7 @@ const Header = () => {
           <p>
             Pum Da Da Da Dun We are gamers
           </p>
-          <Link to="/plans" className='btn lg'> Get Started </Link>
+          <Link to="/about" className='btn lg'> Get Started </Link>
         </div>
         <div className="main__header-right">
           <div className="main__header-circle"></div>
