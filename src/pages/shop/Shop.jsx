@@ -1,15 +1,20 @@
 import React from 'react'
 import './shop.css'
-import Flexbox from '../../components/Flexbox'
+import Ecommerce from '../../images/ecommercePic.jpg'
 
 const Shop = () => {
   return (
-    <header className="main__header">
-      <div className="container main__header-container">
-        <h1>Shop</h1>
-        <Flexbox />    
-      </div>
-    </header>
+    <div className="main__header">
+      <a
+      href="https://ecommerce-roan-omega.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="website-link"
+    >
+      <h1>Shop U8 Today</h1>
+      <img src={Ecommerce} alt="Shop U8 Today" width={250} height={250}/>
+    </a>
+    </div>
     )
 }
 
