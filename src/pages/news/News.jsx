@@ -1,30 +1,48 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Logo from '../../images/logo55.png'
-
 import './news.css'
 
 const News = () => {
+  const articles = [
+    {
+      id: 1,
+      title: 'Breaking News 1',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      author: 'John Doe',
+      date: 'June 16, 2023'
+    },
+    {
+      id: 2,
+      title: 'Breaking News 2',
+      content: 'Praesent vel enim in nunc interdum sollicitudin.',
+      author: 'Jane Smith',
+      date: 'June 17, 2023'
+    },
+    {
+      id: 3,
+      title: 'Breaking News 3',
+      content: 'Fusce consectetur massa id metus commodo, ac lacinia nunc tincidunt.',
+      author: 'Mark Johnson',
+      date: 'June 18, 2023'
+    }
+  ];
+
+  const mystyle = {
+  }; 
   return (
-    <header className="main__header">
-    <div className="container main__header-container">
-      <div className="main__header-left">
-        <h4>#GetGooeyWithIt</h4>
-        <h1>Join The Legends Of The Gaming World</h1>
-        <Link to="/shop" className='btn lg'> Shop </Link>
-        <Link to="/esports" className='btn lg'> Roster </Link>
-        <Link to="/events" className='btn lg'> Events </Link>
-        <Link to="/news" className='btn lg'> News </Link>
-        <br></br>
-      </div>
-      <div className="main__header-right">
-        <div className="main__header-circle"></div>
-          <div className="main__header-image">
-          <img src={Logo} alt="Main Header" />
-          </div>
+    <div className="main__news" style={mystyle}>
+    <div className="news-articles">
+      <h1 className='news__title'>Latest News Articles</h1>
+      {articles.map(article => (
+        <div key={article.id} className="article">
+          <h3 className="article-title">{article.title}</h3>
+          <p className="article-content">{article.content}</p>
+          <p className="article-info">
+            By <span className="article-author">{article.author}</span> | {article.date}
+          </p>
         </div>
+      ))}
     </div>
-  </header>
+  </div>
   )
 }
 
