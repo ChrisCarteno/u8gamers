@@ -51,10 +51,17 @@ const News = () => {
     },
     {
       id: 2,
-      title: 'Breaking News 2',
-      content: 'Praesent vel enim in nunc interdum sollicitudin.',
-      author: 'Jane Smith',
-      date: 'June 17, 2023'
+      title: 'Ricardo Calderon: The Rising Star of Super Smash Brothers',
+      content: `In the electrifying world of competitive Super Smash Brothers, a new player has emerged, captivating audiences and leaving a trail of defeated opponents in his wake. Ricardo Calderon, a young and talented prodigy, is making waves in the gaming community with his exceptional skills and unwavering determination. As his journey unfolds, Calderon's name is becoming synonymous with excellence in the Super Smash Brothers scene.
+Hailing from [hometown], Calderon discovered his passion for gaming at an early age. With an innate talent for strategy and lightning-fast reflexes, he quickly gravitated towards Super Smash Brothers, finding his true calling in the game. Under the tag of "Calderon Smash," he has honed his skills, dedicating countless hours to mastering the game's intricacies.
+What sets Calderon apart is not only his exceptional gameplay, but also his unwavering dedication to improvement. He approaches each match with unwavering focus, analyzing opponents' strategies, studying game mechanics, and constantly refining his own techniques. Calderon's commitment to self-improvement is evident in every move he makes, consistently pushing the boundaries of what is possible in the game.
+With a formidable presence on both online platforms and local tournaments, Calderon has quickly risen through the ranks, earning respect from fellow players and spectators alike. His skillful maneuvering, calculated decision-making, and lightning-quick reflexes have become the stuff of legends, leaving opponents bewildered and audiences on the edge of their seats.
+Beyond his individual prowess, Calderon has also made a mark as a charismatic and humble figure within the gaming community. Known for his sportsmanship and genuine love for the game, he has garnered a loyal fan base that supports him every step of the way. Calderon's infectious enthusiasm and genuine interactions have made him a beloved figure within the Super Smash Brothers community.
+As the competitive scene takes notice of Calderon's rise, he has set his sights on larger stages and more prestigious tournaments. With ambitions to compete on an international level, he is eager to prove himself against the world's best players. The Super Smash Brothers community eagerly anticipates Calderon's participation in upcoming events, eager to witness his relentless pursuit of victory and the exhilarating gameplay he consistently delivers.
+Off the battlefield, Calderon is an inspiration to aspiring gamers, encouraging them to pursue their dreams and embrace their passion for gaming. He actively engages with his fans through social media, sharing tips, tricks, and personal insights into his journey. Calderon's presence serves as a testament to the power of perseverance, dedication, and the boundless possibilities that gaming offers.
+Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene is a testament to his immense talent, unwavering dedication, and magnetic personality. As he continues to evolve as a player, his journey promises to inspire a new generation of gamers and reshape the landscape of professional gaming. With each victory, Calderon etches his name in the annals of Super Smash Brothers history, solidifying his status as a rising star and a force to be reckoned with. The future holds endless possibilities for this extraordinary player, and the gaming world eagerly awaits the next chapter in Ricardo Calderon's remarkable journey.`
+      author: 'Christian Carteno',
+      date: 'June 27, 2023'
     },
     {
       id: 3,
