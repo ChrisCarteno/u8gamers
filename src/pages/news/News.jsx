@@ -1,5 +1,8 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 import React from 'react'
 import './news.css'
+import NewsArticle from '../../components/NewsArticle';
 
 const News = () => {
   const articles = [
@@ -70,7 +73,7 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
       As a fan of FromSoftware's notoriously difficult games, Rodriguez eagerly embraced the release of Elden Ring. However, his journey through this unforgiving universe has proven to be a true test of his skills and patience. Encountering formidable foes, intricate puzzles, and perilous landscapes, Rodriguez has discovered that Elden Ring is not for the faint of heart.
       Struggling through countless defeats and setbacks, Rodriguez has faced the depths of frustration that come with each failed attempt. However, it is his unyielding determination that sets him apart. Rather than succumbing to discouragement, Rodriguez harnesses his failures as fuel to improve and refine his strategies.
       Rodriguez's journey is not just a personal struggle but also a source of inspiration for fellow gamers. Through his streams and online presence, he openly shares his experiences, providing valuable insights into the challenges of Elden Ring. His authenticity and vulnerability resonate with others who have faced similar struggles in their own gaming endeavors.
-      One aspect that sets Rodriguez apart is his willingness to seek guidance from the gaming community. Engaging with fellow players, he actively participates in forums, discussions, and seeks advice from seasoned Elden Ring veterans. Rodriguez understands that collaboration and support from the community can make all the difference in overcoming the obstacles that lie ahead.
+      Engaging with fellow players, he actively participates in forums, discussions, and seeks advice from seasoned Elden Ring veterans. Rodriguez understands that collaboration and support from the community can make all the difference in overcoming the obstacles that lie ahead.
       As he navigates through Elden Ring's intricate world, Rodriguez continues to grow as a player. Each victory, no matter how small, is cherished and celebrated, serving as a testament to his progress and dedication. Rodriguez's journey serves as a reminder that success often comes to those who are willing to embrace challenges and persist through adversity.
       While the path may be arduous, Rodriguez remains undeterred. He sees every defeat as an opportunity to learn and adapt, refining his skills and deepening his understanding of the game's mechanics. With each encounter, he hones his reflexes, refines his strategies, and inches closer to the triumph that he seeks.
       Nate Rodriguez's journey through Elden Ring is a testament to the indomitable human spirit in the face of daunting challenges. His unwavering determination, resilience, and openness serve as an inspiration to gamers around the world who encounter similar struggles in their own virtual realms. As he persists in his quest, Rodriguez embodies the belief that triumph is not solely measured by the destination but by the lessons learned and personal growth experienced along the way.
@@ -81,11 +84,17 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
   ];
 
   const mystyle = {
-  }; 
+  };
+
   return (
     <div className="main__news" style={mystyle}>
     <div className="news-articles">
       <h1 className='news__title'>Latest News Articles</h1>
+      {/* <BrowserRouter>
+      <Routes>
+        <Route path="/news/:id" component={<NewsArticle />} />
+      </Routes>
+    </BrowserRouter> */}
       {articles.map(article => (
         <div key={article.id} className="article">
           <h3 className="article-title">{article.title}</h3>

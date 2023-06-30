@@ -13,11 +13,4 @@ const NewsArticle = ({ title, content, author, date }) => {
   );
 };
 
-NewsArticle.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-};
-
 export default NewsArticle;
