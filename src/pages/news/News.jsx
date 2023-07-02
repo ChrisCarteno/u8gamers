@@ -83,18 +83,10 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
     }
   ];
 
-  const mystyle = {
-  };
-
   return (
-    <div className="main__news" style={mystyle}>
+    <div className="main__news">
     <div className="news-articles">
       <h1 className='news__title'>Latest News Articles</h1>
-      {/* <BrowserRouter>
-      <Routes>
-        <Route path="/news/:id" component={<NewsArticle />} />
-      </Routes>
-    </BrowserRouter> */}
       {articles.map(article => (
         <div key={article.id} className="article">
           <h3 className="article-title">{article.title}</h3>
