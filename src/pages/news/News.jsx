@@ -1,8 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
 import React from 'react'
 import './news.css'
-import NewsArticle from '../../components/NewsArticle';
 
 const News = () => {
   const articles = [

@@ -23,9 +23,7 @@ function App() {
         <Route path="/news" element={<News/>} />
         <Route path="/roster" element={<Roster/>} />
         <Route path="/shop" element={<Shop/>} />
-        <Route path="/news/u8" element={<NewsArticle/>} />
-        <Route path="/news/unate" element={<NewsArticle/>} />
-        <Route path="/news/uricky" element={<NewsArticle/>} />
+        <Route path="/news/:newsId" element={<NewsArticle/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
