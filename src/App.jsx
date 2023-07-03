@@ -6,6 +6,7 @@ import Home from './pages/home/Home'
 import News from './pages/news/News'
 import Roster from './pages/roster/Roster'
 import Shop from './pages/shop/Shop'
+import NewsArticle from './components/NewsArticle'
 
 import Footer from './components/Footer';
 import NavBar from "./components/NavBar";
@@ -22,7 +23,9 @@ function App() {
         <Route path="/news" element={<News/>} />
         <Route path="/roster" element={<Roster/>} />
         <Route path="/shop" element={<Shop/>} />
-        
+        <Route path="/news/u8" element={<NewsArticle/>} />
+        <Route path="/news/unate" element={<NewsArticle/>} />
+        <Route path="/news/uricky" element={<NewsArticle/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
