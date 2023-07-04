@@ -7,7 +7,7 @@ const NewsArticle = () => {
     {
       id: 1,
       title: 'Introducing u8Gamers: The Next Frontier in Gaming',
-      content: `In the ever-evolving world of gaming, a new 
+      content: `In the ever-evolving world of gaming, a new
       powerhouse has emerged, captivating players and enthusiasts 
       alike. u8Gamers, a revolutionary gaming organization, has 
       burst onto the scene, promising to redefine the gaming 
@@ -72,6 +72,9 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
       date: 'June 28, 2023'
     }
   ];
+
+  let articleArr = articles[0].content.split('\ude04');
+  console.log(articleArr);
 
   const params = useParams();
   let { newsId } = params;
