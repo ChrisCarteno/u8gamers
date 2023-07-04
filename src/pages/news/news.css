@@ -17,8 +17,8 @@
   max-width: 1080px;
 }
 
-.article:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.news-articles .article:hover {
+  box-shadow: 8px 18px 18px rgba(223, 67, 67, 0.2);
 }
 
 .article-title {
@@ -36,6 +36,7 @@
 .article-info {
   color: #888;
   font-size: 14px;
+  float: right;
 }
 
 .article-author {
