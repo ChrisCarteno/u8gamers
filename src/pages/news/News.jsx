@@ -1,10 +1,11 @@
 import React from 'react'
 import './news.css'
+import { Link } from 'react-router-dom';
 
 const News = () => {
   const articles = [
     {
-      id: 1,
+      id: 0,
       title: 'Introducing u8Gamers: The Next Frontier in Gaming',
       content: `In the ever-evolving world of gaming, a new 
       powerhouse has emerged, captivating players and enthusiasts 
@@ -50,7 +51,7 @@ const News = () => {
       date: 'June 26, 2023'
     },
     {
-      id: 2,
+      id: 1,
       title: 'Ricardo Calderon: The Rising Star of Super Smash Brothers',
       content: `In the electrifying world of competitive Super Smash Brothers, a new player has emerged, captivating audiences and leaving a trail of defeated opponents in his wake. Ricardo Calderon, a young and talented prodigy, is making waves in the gaming community with his exceptional skills and unwavering determination. As his journey unfolds, Calderon's name is becoming synonymous with excellence in the Super Smash Brothers scene.
 Hailing from Southern California, Calderon discovered his passion for gaming at an early age. With an innate talent for strategy and lightning-fast reflexes, he quickly gravitated towards Super Smash Brothers, finding his true calling in the game. Under the tag of "Ronky Kong" he has honed his skills, dedicating countless hours to mastering the game's intricacies.
@@ -64,7 +65,7 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
       date: 'June 27, 2023'
     },
     {
-      id: 3,
+      id: 2,
       title: 'Nate Rodriguez: Overcoming Obstacles in the Realm of Elden Ring',
       content: `In the vast and treacherous world of Elden Ring, one player's journey stands out as a testament to perseverance and resilience. Nate Rodriguez, a determined and dedicated gamer, has been on a challenging quest to conquer the trials and tribulations that this mystical realm presents. Despite facing numerous setbacks and hurdles, Rodriguez's unwavering spirit fuels his determination to succeed.
       As a fan of FromSoftware's notoriously difficult games, Rodriguez eagerly embraced the release of Elden Ring. However, his journey through this unforgiving universe has proven to be a true test of his skills and patience. Encountering formidable foes, intricate puzzles, and perilous landscapes, Rodriguez has discovered that Elden Ring is not for the faint of heart.
@@ -85,6 +86,7 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
     <div className="news-articles">
       <h1 className='news__title'>Latest News Articles</h1>
       {articles.map(article => (
+        <Link to={`/news/${article.id}`} className="article-link">
         <div key={article.id} className="article">
           <h3 className="article-title">{article.title}</h3>
           <p className="article-content">{article.content}</p>
@@ -92,6 +94,7 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
             By <span className="article-author">{article.author}</span> | {article.date}
           </p>
         </div>
+        </Link>
       ))}
     </div>
   </div>
