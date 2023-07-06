@@ -73,24 +73,11 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
     }
   ];
 
-  let articleArr = articles[0].content.split('\ude04');
+  let articleArr = articles[0].content.split('.');
   console.log(articleArr);
 
   const params = useParams();
   let { newsId } = params;
-  switch (newsId) {
-    case 'u8':
-      newsId = 0;
-      break;
-    case 'ronky':
-      newsId = 1;
-      break;
-    case 'elden':
-      newsId = 2;
-      break;
-    default:
-      break;
-  }
 
   return (
     <div className="main__news">
