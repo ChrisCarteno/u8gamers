@@ -1,5 +1,6 @@
 import React from 'react'
 import './events.css'
+import MultiActionAreaCard from '../../components/Flexbox.jsx'
 
 const Events = ({ title, date, location, description }) => {
   return (
@@ -40,6 +41,7 @@ class EventsPage extends React.Component {
     return (
       <div className="events-page">
         <h2>Upcoming Events</h2>
+        <MultiActionAreaCard />
         {events.length > 0 ? (
           events.map((event, index) => (
             <Events
