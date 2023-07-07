@@ -27,7 +27,7 @@ export default function MultiActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="joeTank.png"
+          image="https://mui.com/static/images/cards/contemplative-reptile.jpg"
           alt="green iguana"
         />
         <CardContent>
