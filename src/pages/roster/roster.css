@@ -30,6 +30,8 @@
   text-transform: uppercase;
   margin: 0;
   color: green;
+  top: -40px;
+  z-index: 50;
 }
 
 .card-body {
