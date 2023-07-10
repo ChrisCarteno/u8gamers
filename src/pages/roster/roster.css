@@ -26,12 +26,13 @@
 }
 
 .card-header > img {
-  width: 150px;
-  height: 100px;
+  width: 250px;
+  height: 300px;
   object-fit: cover;
   object-position: top;
   position: relative;
   z-index: 10;
+  float: right;
 }
 
 .card-header--title {
