@@ -15,8 +15,7 @@ class CardHeader extends React.Component {
     const { image } = this.props;
     return (
       <div id={image} className="card-header">
-        <img src={image} alt="Logoooo" height={"50px"} width={"50px"}/>
-        <h4 className="card-header--title">News</h4>
+        <img src={image} alt="Logoooo"/>
       </div>
     )
   }
