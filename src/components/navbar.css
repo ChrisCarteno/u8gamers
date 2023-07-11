@@ -24,7 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;    
+    position: relative;
 }
 
 .logo {
@@ -103,23 +103,23 @@ nav {
     }
 
     .nav__links li:nth-child(3){
-        animation-delay: 400ms;
+        animation-delay: 300ms;
     }
 
     .nav__links li:nth-child(4){
-        animation-delay: 600ms;
+        animation-delay: 400ms;
     }
 
     .nav__links li:nth-child(5){
-        animation-delay: 800ms;
+        animation-delay: 500ms;
     }
 
     .nav__links li:nth-child(6){
-        animation-delay: 1s;
+        animation-delay: 600ms;
     }
 
     .nav__links li:nth-child(7){
-        animation-delay: 1.2s;
+        animation-delay: 700ms;
     }
 
     @keyframes navAnimation {
@@ -127,7 +127,7 @@ nav {
             transform: rotateX(0);
             opacity: 1;
         }
-        
+
     }
 
     .nav__links li a {
