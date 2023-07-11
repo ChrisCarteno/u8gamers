@@ -40,7 +40,6 @@ class CardBody extends React.Component {
         <h2>{this.props.title}</h2>
 
         <p className="body-content">{this.props.text}</p>
-
         <Button />
       </div>
     )
