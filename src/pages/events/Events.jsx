@@ -4,12 +4,22 @@ import MultiActionAreaCard from '../../components/Flexbox.jsx'
 
 const Events = () => {
   return (
-  <>
-    <div className="">
-      <MultiActionAreaCard />
+    <div className="events-page">
+      <h2>  </h2>
+      <div className="event-card">
+       <MultiActionAreaCard />
+      </div>
+      <div className="event-card">
+       <MultiActionAreaCard />
+      </div>
+      <div className="event-card">
+       <MultiActionAreaCard />
+      </div>
+      <div className="event-card">
+       <MultiActionAreaCard />
+      </div>
 
     </div>
-  </>
   )
 }
 
