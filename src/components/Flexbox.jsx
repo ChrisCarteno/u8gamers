@@ -1,18 +1,3 @@
-// import * as React from "react";
-// import Button from "@mui/material/Button";
-// import "./flexbox.css";
-// import { CardMedia } from "@mui/material";
-
-// const Flexbox = () => {
-//     return(
-//         <div className="flexbox">
-//             <Button variant="contained">Hello World</Button>
-//             Ca
-//         </div>
-//     )
-// }
-
-// export default Flexbox;
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
