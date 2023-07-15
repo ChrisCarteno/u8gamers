@@ -6,11 +6,17 @@
 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 140px 20px;
   }
   
+.events-page{
+    padding: 20px;
 
+}
+
+.event-card{
+  margin: 20px;
+}
   /* Media query for smaller screens */
   @media (max-width: 480px) {
     .events-page {
