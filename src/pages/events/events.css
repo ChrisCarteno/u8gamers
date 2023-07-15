@@ -1,4 +1,4 @@
-.events-page {
+.events-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,8 +9,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 140px 20px;
   }
-  
-
   
 
   /* Media query for smaller screens */
