@@ -1,7 +1,7 @@
 .events-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     padding: 20px;
@@ -14,9 +14,6 @@
 
 }
 
-.event-card{
-  margin: 20px;
-}
   /* Media query for smaller screens */
   @media (max-width: 480px) {
     .events-page {
