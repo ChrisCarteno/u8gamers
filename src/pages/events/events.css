@@ -3,8 +3,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
-    padding: 20px;
+    align-content: space-around;
+    gap: 30px;
     border-radius: 5px;
     margin: 140px 20px;
   }
