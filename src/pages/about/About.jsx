@@ -1,7 +1,5 @@
 import * as React from 'react';
-import {Link} from 'react-router-dom'
-import Logo from '../../images/logo55.png'
-import Flexbox from '../../components/Flexbox';
+
 
 import './about.css'
 
