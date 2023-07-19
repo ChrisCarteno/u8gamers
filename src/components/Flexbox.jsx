@@ -16,11 +16,11 @@ export default function MultiActionAreaCard( props) {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h6" height="140" component="div">
             {props.title}
           </Typography>
-          <Typography variant="body1" color="text.secondary">
-            {props.description}
+          <Typography variant="h6" color="text.secondary">
+            {props.content}
           </Typography>
         </CardContent>
       </CardActionArea>
