@@ -79,7 +79,7 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
       <h2> Check Out Our Upcoming Events </h2>
       <div className="events-cards">
       {articles.map(article => (
-        <MultiActionAreaCard className="event-card" key={'event' + article.id} title={article.title} content={article.content} author={article.author} date={article.date}/>
+        <MultiActionAreaCard key={'event' + article.id} title={article.title} content={article.content} author={article.author} date={article.date}/>
       ))}
       </div>
       

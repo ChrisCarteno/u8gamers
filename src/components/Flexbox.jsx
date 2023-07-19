@@ -7,7 +7,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function MultiActionAreaCard( props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 }} style={{ backgroundColor: "#fff" }}>
       <CardActionArea className='cardActionArea'>
         <CardMedia
           component="img"
@@ -19,8 +19,11 @@ export default function MultiActionAreaCard( props) {
           <Typography gutterBottom variant="h6" height="140" component="div">
             {props.title}
           </Typography>
-          <Typography variant="h6" color="text.secondary">
+          <Typography variant="body2" color="text.secondary">
             {props.content}
+          </Typography>
+          <Typography variant="body1" color="text.secondary">
+            {props.date}
           </Typography>
         </CardContent>
       </CardActionArea>
