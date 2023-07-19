@@ -19,9 +19,6 @@ export default function MultiActionAreaCard( props) {
           <Typography gutterBottom variant="h6" height="140" component="div">
             {props.title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {props.content}
-          </Typography>
           <Typography variant="body1" color="text.secondary">
             {props.date}
           </Typography>
