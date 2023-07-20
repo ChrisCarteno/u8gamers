@@ -16,6 +16,7 @@ export default function MultiActionAreaCard( props) {
           alt="green iguana"
         />
         <CardContent>
+          {props.icon}
           <Typography gutterBottom variant="h6" height="140" component="div">
             {props.title}
           </Typography>

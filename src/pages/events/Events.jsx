@@ -1,13 +1,15 @@
 import React from 'react'
 import './events.css'
 import MultiActionAreaCard from '../../components/Flexbox.jsx'
+import { BsFilm } from 'react-icons/bs';
 
 const Events = () => {
 
   const articles = [
     {
       id: 0,
-      title: 'Introducing u8Gamers: The Next Frontier in Gaming',
+      title: 'Barbenheimer: Movie Day',
+      icon: BsFilm,
       date: 'June 26, 2023'
     },
     {
@@ -27,7 +29,7 @@ const Events = () => {
       <h2> Check Out Our Upcoming Events </h2>
       <div className="events-cards">
       {articles.map(article => (
-        <MultiActionAreaCard key={'event' + article.id} title={article.title} author={article.author} date={article.date}/>
+        <MultiActionAreaCard key={'event' + article.id} title={article.title} author={article.author} date={article.date} icon={article.icon}/>
       ))}
       </div>
       
