@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import { BsFilm } from 'react-icons/bs';
 
 export default function MultiActionAreaCard( props) {
   return (
@@ -16,7 +17,7 @@ export default function MultiActionAreaCard( props) {
           alt={props.title}
         />
         <CardContent>
-          {props.icon}
+          <BsFilm />
           <Typography gutterBottom variant="h6" height="140" component="div">
             {props.title}
           </Typography>
