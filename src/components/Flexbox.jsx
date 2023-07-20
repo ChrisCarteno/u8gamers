@@ -12,8 +12,8 @@ export default function MultiActionAreaCard( props) {
         <CardMedia
           component="img"
           height="140"
-          image="https://mui.com/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+          image= "https://agentsoffandom.com/wp-content/uploads/2023/07/IMG_6060-819x1024.jpg"
+          alt={props.title}
         />
         <CardContent>
           {props.icon}
