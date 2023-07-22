@@ -17,6 +17,9 @@ export default function MultiActionAreaCard( props) {
           alt={props.title}
         />
         <CardContent>
+          if ({props.title} === 'Barbenheimer: Movie Day') {
+            <BsFilm />
+          }
           <BsFilm />
           <Typography gutterBottom variant="h6" height="140" component="div">
             {props.title}
