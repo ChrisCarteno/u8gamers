@@ -5,6 +5,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { BsFilm } from 'react-icons/bs';
+import { GiPumpkinLantern } from 'react-icons/gi';
+import { MdOutlineCabin } from 'react-icons/md';
 
 export default function MultiActionAreaCard( props) {
   return (
@@ -20,7 +22,12 @@ export default function MultiActionAreaCard( props) {
            {
             props.title === 'Barbenheimer: Movie Day' ? ( <BsFilm /> ) : ( <div></div> )
           }          
-
+          {
+            props.title === 'Big Bear Summit' ? ( <MdOutlineCabin /> ) : ( <div></div> )
+          } 
+          {
+            props.title === 'Halloween Spooktacular' ? ( <GiPumpkinLantern /> ) : ( <div></div> )
+          } 
           <Typography gutterBottom variant="h6" height="140" component="div">
             {props.title}
           </Typography>

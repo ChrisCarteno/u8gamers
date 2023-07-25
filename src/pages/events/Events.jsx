@@ -1,7 +1,6 @@
 import React from 'react'
 import './events.css'
 import MultiActionAreaCard from '../../components/Flexbox.jsx'
-import { BsFilm } from 'react-icons/bs';
 
 const Events = () => {
 
@@ -14,7 +13,7 @@ const Events = () => {
     {
       id: 1,
       title: 'Halloween Spooktacular',
-      date: 'June 26, 2023'
+      date: 'October 26, 2023'
     },
     {
       id: 2,
