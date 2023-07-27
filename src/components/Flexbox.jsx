@@ -16,7 +16,7 @@ export default function MultiActionAreaCard( props) {
           component="img"
           height="140"
           image= {
-            props.title === 'Barbenheimer: Movie Day' ? ( "https://agentsoffandom.com/wp-content/uploads/2023/07/IMG_6060-819x1024.jpg" ) : ( <div></div> )
+            props.title === 'Barbenheimer: Movie Day' ? ( "https://agentsoffandom.com/wp-content/uploads/2023/07/IMG_6060-819x1024.jpg" ) : ( "https://images2.alphacoders.com/123/1231556.png" )
           }
           alt={props.title}
         />
