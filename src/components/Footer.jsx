@@ -16,17 +16,16 @@ const Footer = () => {
        <div className="footer-col">
          <h4>Roster</h4>
          <ul>
-            <li><a href="/esports">esports</a></li>
-            <li><a href="/esports#teams">teams</a></li>
-            <li><a href="/esports#players">players</a></li>
+            <li><a href="/roster">esports</a></li>
+            <li><a href="/roster/#players">players</a></li>
          </ul>
        </div>
        <div className="footer-col">
          <h4>online shop</h4>
          <ul>
             <li><a href="/shop">shop</a></li>
-            <li><a href="/shop#products">products</a></li>
-            <li><a href="/shop#cart">cart</a></li>
+            <li><a href="https://ecommerce-roan-omega.vercel.app/">products</a></li>
+            <li><a href="https://ecommerce-roan-omega.vercel.app/product/ronkyshirt">cart</a></li>
          </ul>
        </div>
        <div className="footer-col">
