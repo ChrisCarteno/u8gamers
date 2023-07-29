@@ -15,7 +15,7 @@ const Header = () => {
             Pum Da Da Da Dun We are gamers
           </p>
         <Link to="/shop" className='btn lg'> Shop </Link>
-        <Link to="/esports" className='btn lg'> Roster </Link>
+        <Link to="/roster" className='btn lg'> Roster </Link>
         <Link to="/events" className='btn lg'> Events </Link>
         <Link to="/news" className='btn lg'> News </Link>
         <Link to="/about" className='btn lg'> About </Link>
