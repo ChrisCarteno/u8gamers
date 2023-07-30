@@ -61,7 +61,7 @@ function Roster() {
     <div>
       <div className="container main__header-container">
         <Card image={FrannyImg} signDate={"March 20th 2014"} title={"Franny Duran"} text={"one of the great gamers of all time"}/>
-        <Card image={GoonerImage} signDate={"March 20th 2014"} title={"Gooner"} text={"Ricardo Calderon is an up and coming Fortnite gamer who is making waves in the gaming community. With his exceptional skills and dedication to the game, Ricardo has quickly gained recognition as a rising talent in the Fortnite scene. Known for his strategic gameplay, lightning-fast reflexes, and remarkable aim, Ricardo showcases an impressive level of proficiency in both solo and team-based game modes. As he continues to hone his skills and compete in various tournaments, all eyes are on Ricardo as he aims to solidify his name among the top Fortnite players in the world. With his passion for the game and unwavering determination, Ricardo Calderon is undoubtedly a force to be reckoned with in the Fortnite gaming sphere."}/>
+        <Card image={GoonerImage} signDate={"March 20th 2014"} title={"Gooner"} text={"Ricardo Calderon is an up and coming Fortnite gamer."}/>
         <Card image={JoelTank} signDate={"March 20th 2014"} title={"JoelTank"} text={"one of the great gamers of all time"}/>
         <Card image={u8CHuy} signDate={"March 20th 2014"} title={"u8CHuy"} text={"one of the great gamers of all time"}/>
         <Card image={PabloMinerals} signDate={"March 20th 2014"} title={"PabloMinerals"} text={"one of the great gamers of all time"}/>
@@ -72,5 +72,5 @@ function Roster() {
     </div>
   )
 }
-
+// who is making waves in the gaming community. With his exceptional skills and dedication to the game, Ricardo has quickly gained recognition as a rising talent in the Fortnite scene. Known for his strategic gameplay, lightning-fast reflexes, and remarkable aim, Ricardo showcases an impressive level of proficiency in both solo and team-based game modes. As he continues to hone his skills and compete in various tournaments, all eyes are on Ricardo as he aims to solidify his name among the top Fortnite players in the world. With his passion for the game and unwavering determination, Ricardo Calderon is undoubtedly a force to be reckoned with in the Fortnite gaming sphere.
 export default Roster
