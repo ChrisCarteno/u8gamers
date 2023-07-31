@@ -4,7 +4,7 @@ import './roster.css'
 import FrannyImg from '../../images/Franny.png'
 import GoonerImage from '../../images/GoonerRIkcy.png'
 import JoelTank from '../../images/JoelTank.png'
-import u8CHuy from '../../images/u8CHuy.png'
+import uCHuy from '../../images/u8CHuy.png'
 import PabloMinerals from '../../images/PabloMinerals.png'
 import PETERDAYS from '../../images/PETERDAYS.jpg'
 import ROACHATA from '../../images/ROACHATA.jpg'
@@ -21,16 +21,6 @@ class CardHeader extends React.Component {
   }
 }
 
-class Button extends React.Component {
-  render() {
-    return (
-      <button className="button button-primary">
-        <i className="fa fa-chevron-right"></i> Find out more
-      </button>
-    )
-  }
-}
-
 class CardBody extends React.Component {
   render() {
     return (
@@ -40,7 +30,7 @@ class CardBody extends React.Component {
         <h2>{this.props.title}</h2>
 
         <p className="body-content">{this.props.text}</p>
-        <Button />
+  
       </div>
     )
   }
@@ -63,7 +53,7 @@ function Roster() {
         <Card image={FrannyImg} signDate={"March 20th 2014"} title={"Franny Duran"} text={"one of the great gamers of all time"}/>
         <Card image={GoonerImage} signDate={"March 20th 2014"} title={"Gooner"} text={"Ricardo Calderon is an up and coming Fortnite gamer."}/>
         <Card image={JoelTank} signDate={"March 20th 2014"} title={"JoelTank"} text={"one of the great gamers of all time"}/>
-        <Card image={u8CHuy} signDate={"March 20th 2014"} title={"u8CHuy"} text={"one of the great gamers of all time"}/>
+        <Card image={uCHuy} signDate={"March 20th 2014"} title={"u8CHuy"} text={"one of the great gamers of all time"}/>
         <Card image={PabloMinerals} signDate={"March 20th 2014"} title={"PabloMinerals"} text={"one of the great gamers of all time"}/>
         <Card image={PETERDAYS} signDate={"March 20th 2014"} title={"PETERDAYS"} text={"one of the great gamers of all time"}/>
         <Card image={ROACHATA} signDate={"March 20th 2014"} title={"ROACHATA"} text={"one of the great gamers of all time"}/>
