@@ -1,0 +1,31 @@
+.gamer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e8e8e8;
+    background-color: #040505;
+    padding: 30px;
+    transition: box-shadow 0.3s ease-in-out;
+    max-width: 1080px;
+  }
+  .gamerTitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .gamerContent {
+    margin-top: 10px;
+    line-height: 1.75;
+  }
+  
+  .gamer-author {
+    font-weight: bold;
+  }
+
+  .gamer__title{
+    margin-bottom: 2rem;
+    text-align: center;
+  }
