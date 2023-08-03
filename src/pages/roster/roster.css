@@ -27,27 +27,18 @@
 }
 
 .card-header > img {
-  width: auto;
-  height: 200px;
-  object-fit: cover;
-  object-position: top;
+  width: 30%;
+  height: 175px;
   position: relative;
   z-index: 10;
   float: right;
-  border-radius: 15rem;
-  top: 7rem;
-}
-
-.card-header--title {
-  text-transform: uppercase;
-  margin: 0;
-  color: green;
-  top: -40px;
-  z-index: 50;
+  top: 9.4rem;
 }
 
 .card-body {
-  padding: 10px;
+  padding: 20px;
+  min-width: 200px;
+  min-height: 175px;
   background-color:#fff;
   width:100%;
 }
