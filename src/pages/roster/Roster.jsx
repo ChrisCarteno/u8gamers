@@ -1,5 +1,6 @@
 import React from 'react'
 import './roster.css'
+import { Link } from 'react-router-dom';
 
 import FrannyImg from '../../images/Franny.png'
 import GoonerImage from '../../images/GoonerRIkcy.png'
@@ -50,14 +51,30 @@ function Roster() {
   return (
     <div>
       <div className="container main__header-container">
-        <Card image={FrannyImg} signDate={"March 20th 2014"} title={"Franny Duran"} text={"one of the great gamers of all time"}/>
+        <Link to={`/roster/franny`} className="article-link">
+          <Card image={FrannyImg} signDate={"March 20th 2014"} title={"Franny Duran"} text={"one of the great gamers of all time"}/>
+        </Link>
+        <Link to={`/roster/franny`} className="article-link">
         <Card image={GoonerImage} signDate={"March 20th 2014"} title={"Gooner"} text={"Ricardo Calderon is an up and coming Fortnite gamer."}/>
+        </Link>
+        <Link to={`/roster/franny`} className="article-link">
         <Card image={JoelTank} signDate={"March 20th 2014"} title={"JoelTank"} text={"one of the great gamers of all time"}/>
+        </Link>
+        <Link to={`/roster/franny`} className="article-link">
         <Card image={uCHuy} signDate={"March 20th 2014"} title={"u8CHuy"} text={"one of the great gamers of all time"}/>
+        </Link>
+        <Link to={`/roster/franny`} className="article-link">
         <Card image={PabloMinerals} signDate={"March 20th 2014"} title={"PabloMinerals"} text={"one of the great gamers of all time"}/>
+        </Link>
+        <Link to={`/roster/franny`} className="article-link">
         <Card image={PETERDAYS} signDate={"March 20th 2014"} title={"PETERDAYS"} text={"one of the great gamers of all time"}/>
+        </Link>
+        <Link to={`/roster/franny`} className="article-link">
         <Card image={ROACHATA} signDate={"March 20th 2014"} title={"ROACHATA"} text={"one of the great gamers of all time"}/>
+        </Link>
+        <Link to={`/roster/franny`} className="article-link">
         <Card image={NateDog} signDate={"March 20th 2014"} title={"NateDog"} text={"one of the great gamers of all time"}/>
+        </Link>
       </div>
     </div>
   )
