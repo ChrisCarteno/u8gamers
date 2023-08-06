@@ -57,22 +57,22 @@ function Roster() {
         <Link to={`/roster/franny`} className="article-link">
         <Card image={GoonerImage} signDate={"March 20th 2014"} title={"Gooner"} text={"Ricardo Calderon is an up and coming Fortnite gamer."}/>
         </Link>
-        <Link to={`/roster/franny`} className="article-link">
+        <Link to={`/roster/joel`} className="article-link">
         <Card image={JoelTank} signDate={"March 20th 2014"} title={"JoelTank"} text={"one of the great gamers of all time"}/>
         </Link>
-        <Link to={`/roster/franny`} className="article-link">
+        <Link to={`/roster/chuy`} className="article-link">
         <Card image={uCHuy} signDate={"March 20th 2014"} title={"u8CHuy"} text={"one of the great gamers of all time"}/>
         </Link>
-        <Link to={`/roster/franny`} className="article-link">
+        <Link to={`/roster/pablo`} className="article-link">
         <Card image={PabloMinerals} signDate={"March 20th 2014"} title={"PabloMinerals"} text={"one of the great gamers of all time"}/>
         </Link>
-        <Link to={`/roster/franny`} className="article-link">
+        <Link to={`/roster/peter`} className="article-link">
         <Card image={PETERDAYS} signDate={"March 20th 2014"} title={"PETERDAYS"} text={"one of the great gamers of all time"}/>
         </Link>
-        <Link to={`/roster/franny`} className="article-link">
+        <Link to={`/roster/roach`} className="article-link">
         <Card image={ROACHATA} signDate={"March 20th 2014"} title={"ROACHATA"} text={"one of the great gamers of all time"}/>
         </Link>
-        <Link to={`/roster/franny`} className="article-link">
+        <Link to={`/roster/nate`} className="article-link">
         <Card image={NateDog} signDate={"March 20th 2014"} title={"NateDog"} text={"one of the great gamers of all time"}/>
         </Link>
       </div>
