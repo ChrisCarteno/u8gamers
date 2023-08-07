@@ -73,9 +73,6 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
     }
   ];
 
-  let articleArr = articles[0].content.split('.');
-  console.log(articleArr);
-
   const params = useParams();
   let { newsId } = params;
 
