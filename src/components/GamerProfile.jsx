@@ -19,7 +19,22 @@ const GamerProfile = () => {
 
   return (
     <div >
+      
       <h1 >{profiles[gamerId].title}</h1>
+      <p >{profiles[gamerId].content}</p>
+      <div>thtistesfseef</div>
+      <div>thtistesfseef</div>
+
+      <div>thtistesfseef</div>
+
+      <div>thtistesfseef</div>
+
+      <div>thtistesfseef</div>
+
+      <div>thtistesfseef</div>
+
+      <div>thtistesfseef</div>
+
     </div>
   );
 };
