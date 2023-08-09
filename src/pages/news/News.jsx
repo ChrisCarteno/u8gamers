@@ -79,13 +79,13 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
       <h1 className='news__title'>Latest News Articles</h1>
       {articles.map(article => (
         <Link to={`/news/${article.id}`} className="article-link">
-        <div key={article.id} className="article">
-          <h3 className="article-title">{article.title}</h3>
-          <p className="article-content">{article.content}</p>
-          <p className="article-info">
-            By <span className="article-author">{article.author}</span> | {article.date}
-          </p>
-        </div>
+          <div key={article.id} className="article">
+            <h3 className="article-title">{article.title}</h3>
+            <p className="article-content">{article.content}</p>
+            <p className="article-info">
+              By <span className="article-author">{article.author}</span> | {article.date}
+            </p>
+          </div>
         </Link>
       ))}
     </div>
