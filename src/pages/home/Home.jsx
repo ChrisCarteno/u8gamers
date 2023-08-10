@@ -1,5 +1,3 @@
-import Swiper from 'swiper';
-import 'swiper/css'
 import Header from '../../components/Header'
 
 import './home.css'

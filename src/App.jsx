@@ -23,8 +23,8 @@ function App() {
         <Route path="/events" element={<Events/>} />
         <Route path="/news" element={<News/>} />
         <Route path="/roster" element={<Roster/>} />
-        <Route path="/roster/:gamerId" element={<GamerProfile/>} />
         <Route path="/shop" element={<Shop/>} />
+        <Route path="/roster/:gamerId" element={<GamerProfile/>} />
         <Route path="/news/:newsId" element={<NewsArticle/>} />
       </Routes>
       <Footer />

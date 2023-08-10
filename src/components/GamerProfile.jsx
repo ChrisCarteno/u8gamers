@@ -74,15 +74,15 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
   ];
 
   const params = useParams();
-  let { newsId } = params;
+  let { gamerId } = params;
 
   return (
     <div className="main__news">
     <div className="article">
-      <h1 className='news__title'>{articles[newsId].title}</h1>
-      <p className="articleContent"> {articles[newsId].content}</p>
+      <h1 className='news__title'>{articles[gamerId].title}</h1>
+      <p className="articleContent"> {articles[gamerId].content}</p>
       <p className="article-info">
-        By <span className="article-author">{articles[newsId].author}</span> | {articles[newsId].date} 
+        By <span className="article-author">{articles[gamerId].author}</span> | {articles[gamerId].date} 
       </p>
 
     </div>
