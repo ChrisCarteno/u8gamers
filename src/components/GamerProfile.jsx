@@ -64,18 +64,39 @@ Ricardo Calderon's meteoric rise in the Super Smash Brothers competitive scene i
       author: 'Christian Carteno',
       date: 'June 27, 2023'
     },
-    {
-      id: 3,
-      title: 'Nate Rodriguez: Overcoming Obstacles in the Realm of Elden Ring',
-      content: "In the vast and treacherous world of Elden Ring, one player's journey stands out as a testament to perseverance and resilience. Nate Rodriguez, a determined and dedicated gamer, has been on a challenging quest to conquer the trials and tribulations that this mystical realm presents. Despite facing numerous setbacks and hurdles, Rodriguez's unwavering spirit fuels his determination to succeed. As a fan of FromSoftware's notoriously difficult games, Rodriguez eagerly embraced the release of Elden Ring. However, his journey through this unforgiving universe has proven to be a true test of his skills and patience. Encountering formidable foes, intricate puzzles, and perilous landscapes, Rodriguez has discovered that Elden Ring is not for the faint of heart. Struggling through countless defeats and setbacks, Rodriguez has faced the depths of frustration that come with each failed attempt. However, it is his unyielding determination that sets him apart. Rather than succumbing to discouragement, Rodriguez harnesses his failures as fuel to improve and refine his strategies. Rodriguez's journey is not just a personal struggle but also a source of inspiration for fellow gamers. Through his streams and online presence, he openly shares his experiences, providing valuable insights into the challenges of Elden Ring. His authenticity and vulnerability resonate with others who have faced similar struggles in their own gaming endeavors. Engaging with fellow players, he actively participates in forums, discussions, and seeks advice from seasoned Elden Ring veterans. Rodriguez understands that collaboration and support from the community can make all the difference in overcoming the obstacles that lie ahead. As he navigates through Elden Ring's intricate world, Rodriguez continues to grow as a player. Each victory, no matter how small, is cherished and celebrated, serving as a testament to his progress and dedication. Rodriguez's journey serves as a reminder that success often comes to those who are willing to embrace challenges and persist through adversity. While the path may be arduous, Rodriguez remains undeterred. He sees every defeat as an opportunity to learn and adapt, refining his skills and deepening his understanding of the game's mechanics. With each encounter, he hones his reflexes, refines his strategies, and inches closer to the triumph that he seeks. Nate Rodriguez's journey through Elden Ring is a testament to the indomitable human spirit in the face of daunting challenges. His unwavering determination, resilience, and openness serve as an inspiration to gamers around the world who encounter similar struggles in their own virtual realms. As he persists in his quest, Rodriguez embodies the belief that triumph is not solely measured by the destination but by the lessons learned and personal growth experienced along the way. In the realm of Elden Ring, where danger lurks at every corner, Nate Rodriguez continues to rise, undeterred and unyielding. Through his perseverance, he not only battles the adversaries within the game but also inspires others to persist in their own quests, whatever they may be. Rodriguez's story is a testament to the power of determination, reminding us that even in the face of adversity, the pursuit of victory is a noble and worthwhile endeavor.",
-      author: 'Christian Carteno',
-      date: 'June 28, 2023'
-    }
+    
   ];
 
   const params = useParams();
   let { gamerId } = params;
-
+  switch (gamerId) {
+    case 'franny':
+      gamerId = 0;
+      break;
+    case 'gooner':
+      gamerId = 1;
+      break;
+    case 'joel':
+      gamerId = 2;
+      break;
+    case 'chuy':
+      gamerId = 3;
+      break;
+    case 'pablo':
+      gamerId = 4;
+      break;
+    case 'peter':
+      gamerId = 5;
+      break;
+    case 'roach':
+      gamerId = 6;
+      break;
+    case 'nate':
+      gamerId = 7;
+      break;
+    default:
+      gamerId = 0;
+  } 
   return (
     <div className="main__news">
     <div className="article">

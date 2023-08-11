@@ -72,4 +72,9 @@
 
 .cardGamer {
   margin-right: 5px;
+  color: black;
+}
+
+.cardGamer h2{
+  color:rgba(173, 50, 55, 0.865);
 }

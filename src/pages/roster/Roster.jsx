@@ -51,7 +51,7 @@ function Roster() {
   return (
     <div>
       <div className="container main__header-container">
-        <Link to={`/roster/1`} className="article-link">
+        <Link to={`/roster/franny`} className="article-link">
           <Card image={FrannyImg} signDate={"March 20th 2014"} title={"Franny Duran"} text={"one of the great gamers of all time"}/>
         </Link>
         <Link to={`/roster/gooner`} className="article-link">
