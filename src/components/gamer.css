@@ -6,27 +6,35 @@
     width: 100%;
     border-radius: 8px;
     border: 0px solid #e8e8e8;
-    background-color: #040505;
-    color: #fff;
+    background-color: #fff;
+    color: #BA5552;
     padding: 30px;
     transition: box-shadow 0.3s ease-in-out;
     max-width: 1080px;
   }
   .gamerTitle {
-    font-size: 20px;
     font-weight: bold;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #BA5552;
   }
   
+  .gamer__image{
+    width: 30%;
+  }
   .gamerContent {
     margin-top: 10px;
     line-height: 1.75;
+    display: flex;
+    justify-content: space-around;
   }
   
   .gamer-author {
     font-weight: bold;
   }
 
-  .gamer__title{
-    margin-bottom: 2rem;
-    text-align: center;
+  .gamer__info{
+    color: black;
+    margin-top: 3rem;
+    font-size: large;
   }
