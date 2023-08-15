@@ -17,56 +17,64 @@ const GamerProfile = () => {
       gamer: 'Franny Duran',
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
-      image: FrannyImg
+      image: FrannyImg,
+      type: 'gamer'
     },
     {
       id: 1,
       gamer: 'Gooner',
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
-      image: GoonerImage
+      image: GoonerImage,
+      type: 'gamer'
     },
     {
       id: 2,
       gamer: 'Joel',
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
-      image: JoelTank
+      image: JoelTank,
+      type: 'gamer'
     },
     {
       id: 3,
       gamer: 'Chuy',
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
-      image: uCHuy
+      image: uCHuy,
+      type: 'gamer'
     },
     {
       id: 4,
       gamer: 'Pablo',
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
-      image: PabloMinerals
+      image: PabloMinerals,
+      type: 'gamer'
     },
     {
       id: 5,
       gamer: 'Peter',
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
-      image: PETERDAYS
+      image: PETERDAYS,
+      type: 'gamer'
     },
     {
       id: 6,
       gamer: 'Roach',
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
-      image: ROACHATA
+      image: ROACHATA,
+      type: 'gamer'
     },
     {
       id: 7,
       gamer: 'Nate',
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
-      image: NateDog
+      image: NateDog,
+      type: 'gamer'
     }
     
   ];
@@ -107,6 +115,7 @@ const GamerProfile = () => {
       <div className="gamerContent">
         <img className='gamer__image' src={articles[gamerId].image} alt="Logoooo"/>
         <p className="gamer__info"> {articles[gamerId].excerpt}</p>
+        
       </div>
       <p className="article-info">
         <span className="gamer__title">DATE JOINED</span> | {articles[gamerId].joindate} 
