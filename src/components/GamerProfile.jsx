@@ -18,7 +18,13 @@ const GamerProfile = () => {
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
       image: FrannyImg,
-      type: 'gamer'
+      type: 'gamer',
+      height: '5\' 10\"',
+      weight: '180 lbs',
+      age: '25',
+      favgame: 'League of Legends',
+      favfood: 'Pizza',
+      favcolor: 'Blue'
     },
     {
       id: 1,
@@ -26,7 +32,13 @@ const GamerProfile = () => {
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
       image: GoonerImage,
-      type: 'gamer'
+      type: 'gamer',
+      height: '5\' 10\"',
+      weight: '180 lbs',
+      age: '25',
+      favgame: 'League of Legends',
+      favfood: 'Pizza',
+      favcolor: 'Blue'
     },
     {
       id: 2,
@@ -34,7 +46,13 @@ const GamerProfile = () => {
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
       image: JoelTank,
-      type: 'gamer'
+      type: 'gamer',
+      height: '5\' 10\"',
+      weight: '180 lbs',
+      age: '25',
+      favgame: 'League of Legends',
+      favfood: 'Pizza',
+      favcolor: 'Blue'
     },
     {
       id: 3,
@@ -42,7 +60,13 @@ const GamerProfile = () => {
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
       image: uCHuy,
-      type: 'gamer'
+      type: 'gamer',
+      height: '5\' 10\"',
+      weight: '180 lbs',
+      age: '25',
+      favgame: 'League of Legends',
+      favfood: 'Pizza',
+      favcolor: 'Blue'
     },
     {
       id: 4,
@@ -50,7 +74,13 @@ const GamerProfile = () => {
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
       image: PabloMinerals,
-      type: 'gamer'
+      type: 'gamer',
+      height: '5\' 10\"',
+      weight: '180 lbs',
+      age: '25',
+      favgame: 'League of Legends',
+      favfood: 'Pizza',
+      favcolor: 'Blue'
     },
     {
       id: 5,
@@ -58,7 +88,13 @@ const GamerProfile = () => {
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
       image: PETERDAYS,
-      type: 'gamer'
+      type: 'gamer',
+      height: '5\' 10\"',
+      weight: '180 lbs',
+      age: '25',
+      favgame: 'League of Legends',
+      favfood: 'Pizza',
+      favcolor: 'Blue'
     },
     {
       id: 6,
@@ -66,7 +102,13 @@ const GamerProfile = () => {
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
       image: ROACHATA,
-      type: 'gamer'
+      type: 'gamer',
+      height: '5\' 10\"',
+      weight: '180 lbs',
+      age: '25',
+      favgame: 'League of Legends',
+      favfood: 'Pizza',
+      favcolor: 'Blue'
     },
     {
       id: 7,
@@ -74,7 +116,13 @@ const GamerProfile = () => {
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
       image: NateDog,
-      type: 'gamer'
+      type: 'gamer',
+      height: '5\' 10\"',
+      weight: '180 lbs',
+      age: '25',
+      favgame: 'League of Legends',
+      favfood: 'Pizza',
+      favcolor: 'Blue'
     }
     
   ];
