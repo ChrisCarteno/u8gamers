@@ -33,8 +33,18 @@
     font-weight: bold;
   }
 
-  .gamer__info{
+  .gamer__desc{
     color: black;
     margin-top: 3rem;
     font-size: large;
+  }
+
+  .gamer__info{
+    background-color: #BA5552;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 1rem;
   }

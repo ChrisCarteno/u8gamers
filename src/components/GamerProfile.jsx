@@ -162,8 +162,29 @@ const GamerProfile = () => {
       <h1 className="gamerTitle">{articles[gamerId].gamer}</h1>
       <div className="gamerContent">
         <img className='gamer__image' src={articles[gamerId].image} alt="Logoooo"/>
-        <p className="gamer__info"> {articles[gamerId].excerpt}</p>
-        
+        <div>
+          <p className="gamer__desc"> {articles[gamerId].excerpt}</p>
+          <div className='gamer__info'>
+            <div className='gamer__info__item'>
+              <span className="gamer__title">HEIGHT</span> | {articles[gamerId].height}
+            </div>
+            <div className='gamer__info__item'>
+              <span className="gamer__title">WEIGHT</span> | {articles[gamerId].weight}
+            </div>
+            <div className='gamer__info__item'>
+              <span className="gamer__title">AGE</span> | {articles[gamerId].age}
+            </div>
+            <div className='gamer__info__item'>
+              <span className="gamer__title">FAVORITE GAME</span> | {articles[gamerId].favgame}
+            </div>
+            <div className='gamer__info__item'>
+              <span className="gamer__title">FAVORITE FOOD</span> | {articles[gamerId].favfood}
+            </div>
+            <div className='gamer__info__item'>
+              <span className="gamer__title">FAVORITE COLOR</span> | {articles[gamerId].favcolor}
+            </div>
+          </div>
+        </div>
       </div>
       <p className="article-info">
         <span className="gamer__title">DATE JOINED</span> | {articles[gamerId].joindate} 
