@@ -49,8 +49,9 @@ class Card extends React.Component {
 }
 function Roster() {
   return (
-    <div>
-      <div className="container main__header-container">
+    <div className='roster-container'>
+      <h1>Roster</h1>
+      <div className="roster-main__header-container">
         <Link to={`/roster/franny`} className="article-link">
           <Card image={FrannyImg} signDate={"March 20th 2014"} title={"Franny Duran"} text={"one of the great gamers of all time"}/>
         </Link>

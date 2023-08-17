@@ -1,7 +1,7 @@
 .card {
   width:280px;
   display: block;
-  margin: 60px auto;
+  margin: 50px auto;
   box-shadow: 10px 5px 40px 20px darken(#921cac, 5%);
   transition: .25s;
 
@@ -36,11 +36,11 @@
 }
 
 .card-body {
-  padding: 20px;
+  padding: 25px;
   min-width: 200px;
   min-height: 175px;
   background-color:#fff;
-  width:100%;
+  width: 100%;
 }
 
 .date {
@@ -77,4 +77,22 @@
 
 .cardGamer h2{
   color:rgba(173, 50, 55, 0.865);
+}
+
+.roster-container {
+  margin-top: 8rem;
+  text-align: center;
+  max-width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.roster-main__header-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 5rem;
+  text-align: left;
 }
