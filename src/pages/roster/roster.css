@@ -26,13 +26,10 @@
   color:#000000;
 }
 
-.card-header > img {
+.card-header {
   width: 30%;
   height: 175px;
-  position: relative;
-  z-index: 10;
   float: right;
-  top: 9.4rem;
 }
 
 .card-body {
@@ -95,4 +92,8 @@
   justify-content: space-between;
   column-gap: 5rem;
   text-align: left;
+}
+
+.article-link{
+  padding-bottom: 2rem;
 }
