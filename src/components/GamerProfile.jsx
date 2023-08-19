@@ -113,16 +113,16 @@ const GamerProfile = () => {
     {
       id: 7,
       gamer: 'Nate',
-      excerpt: `I am a gamer through and through`,
+      excerpt: `Waawaa Weewooo I game, buibuibeibeibeip.`,
       joindate: 'March 20th 2014',
       image: NateDog,
       type: 'gamer',
       height: '5\' 10\"',
-      weight: '180 lbs',
-      age: '25',
-      favgame: 'League of Legends',
-      favfood: 'Pizza',
-      favcolor: 'Blue'
+      weight: '270 lbs',
+      age: '24',
+      favgame: 'Elden Ring',
+      favfood: 'Cheese Burgers',
+      favcolor: '#941b0c'
     }
     
   ];
@@ -164,7 +164,7 @@ const GamerProfile = () => {
         <img className='gamer__image' src={articles[gamerId].image} alt="Logoooo"/>
         <div>
           <p className="gamer__desc"> {articles[gamerId].excerpt}</p>
-          <div className='gamer__info'>
+          <div className='gamer__info' style={{backgroundColor: articles[gamerId].favcolor}}>
             <div className='gamer__info__item'>
               <span className="gamer__title">HEIGHT</span> | {articles[gamerId].height}
             </div>
