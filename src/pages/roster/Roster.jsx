@@ -48,7 +48,7 @@ class Card extends React.Component {
 function Roster() {
   return (
     <div className='roster-container'>
-      <h1>Roster</h1>
+      <h1 className='roster-title'>Roster</h1>
       <div className="roster-main__header-container">
         <Link to={`/roster/franny`} className="article-link">
           <Card image={FrannyImg} signDate={"March 20th 2014"} title={"Franny Duran"} text={"one of the great gamers of all time"}/>
@@ -57,22 +57,22 @@ function Roster() {
           <Card image={GoonerImage} signDate={"March 20th 2014"} title={"Gooner"} text={"Ricardo Calderon is an up and coming Fortnite gamer."}/>
         </Link>
           <Link to={`/roster/joel`} className="article-link">
-        <Card image={JoelTank} signDate={"March 20th 2014"} title={"JoelTank"} text={"one of the great gamers of all time"}/>
+        <Card image={JoelTank} signDate={"March 20th 2014"} title={"Joel Tank"} text={"one of the great gamers of all time"}/>
           </Link>
         <Link to={`/roster/chuy`} className="article-link">
           <Card image={uCHuy} signDate={"March 20th 2014"} title={"u8CHuy"} text={"one of the great gamers of all time"}/>
         </Link>
         <Link to={`/roster/pablo`} className="article-link">
-          <Card image={PabloMinerals} signDate={"March 20th 2014"} title={"PabloMinerals"} text={"one of the great gamers of all time"}/>
+          <Card image={PabloMinerals} signDate={"March 20th 2014"} title={"Pminerals"} text={"one of the great gamers of all time"}/>
         </Link>
         <Link to={`/roster/peter`} className="article-link">
-          <Card image={PETERDAYS} signDate={"March 20th 2014"} title={"PETERDAYS"} text={"one of the great gamers of all time"}/>
+          <Card image={PETERDAYS} signDate={"March 20th 2014"} title={"PETERDAYZ"} text={"one of the great gamers of all time"}/>
         </Link>
         <Link to={`/roster/roach`} className="article-link">
           <Card image={ROACHATA} signDate={"March 20th 2014"} title={"ROACHATA"} text={"one of the great gamers of all time"}/>
         </Link>
-        <Link to={`/roster/nate`} className="article-link">
-          <Card image={NateDog} signDate={"March 20th 2014"} title={"NateDog"} text={"one of the great gamers of all time"}/>
+        <Link to={`/roster/nate`} className="article-link nateDawg">
+          <Card image={NateDog} signDate={"March 20th 2014"} title={"nateDAWG"} text={"one of the great gamers of all time"}/>
         </Link>
       </div>
     </div>
