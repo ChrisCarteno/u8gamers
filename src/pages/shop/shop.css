@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.shop-title{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.shop-image{
+    height: 450px;
+    object-fit: cover;
+}

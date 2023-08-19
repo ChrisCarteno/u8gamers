@@ -11,8 +11,8 @@ const Shop = () => {
       rel="noopener noreferrer"
       className="website-link"
     >
-      <h1>Shop U8 Today</h1>
-      <img src={Ecommerce} alt="Shop U8 Today" width={250} height={250}/>
+      <h1 className="shop-title">Shop U8 Today</h1>
+      <img className="shop-image" src={Ecommerce} alt="Shop U8 Today" width={250} height={250}/>
     </a>
     </div>
     )
