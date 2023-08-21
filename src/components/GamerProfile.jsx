@@ -29,16 +29,16 @@ const GamerProfile = () => {
     {
       id: 1,
       gamer: 'Gooner',
-      excerpt: `I am a gamer through and through`,
-      joindate: 'March 20th 2014',
+      excerpt: `I'm roonkie of the year!`,
+      joindate: 'March 20th 2019',
       image: GoonerImage,
       type: 'gamer',
       height: '5\' 10\"',
-      weight: '180 lbs',
-      age: '25',
-      favgame: 'League of Legends',
-      favfood: 'Pizza',
-      favcolor: 'Blue'
+      weight: '220 lbs',
+      age: '24',
+      favgame: 'Super Smash Bros',
+      favfood: 'Chilaquiles',
+      favcolor: '#003566',
     },
     {
       id: 2,
@@ -46,13 +46,13 @@ const GamerProfile = () => {
       excerpt: `I am a gamer through and through`,
       joindate: 'March 20th 2014',
       image: JoelTank,
-      type: 'gamer',
-      height: '5\' 10\"',
-      weight: '180 lbs',
-      age: '25',
-      favgame: 'League of Legends',
+      type: 'physical',
+      height: '5\' 11\"',
+      weight: '172 lbs',
+      age: '24',
+      favgame: 'Super Smash Bros',
       favfood: 'Pizza',
-      favcolor: 'Blue'
+      favcolor: 'Yellow'
     },
     {
       id: 3,
@@ -114,15 +114,15 @@ const GamerProfile = () => {
       id: 7,
       gamer: 'Nate',
       excerpt: `Waawaa Weewooo I game, buibuibeibeibeip.`,
-      joindate: 'March 20th 2014',
+      joindate: 'March 20th 2019',
       image: NateDog,
-      type: 'gamer',
+      type: 'brawler',
       height: '5\' 10\"',
       weight: '270 lbs',
       age: '24',
       favgame: 'Elden Ring',
       favfood: 'Cheese Burgers',
-      favcolor: '#941b0c'
+      favcolor: '#ef476f'
     }
     
   ];
@@ -164,7 +164,10 @@ const GamerProfile = () => {
         <img className='gamer__image' src={articles[gamerId].image} alt="Logoooo"/>
         <div>
           <p className="gamer__desc"> {articles[gamerId].excerpt}</p>
-          <div className='gamer__info' style={{backgroundColor: articles[gamerId].favcolor}}>
+          <div className='gamer__info' style={{backgroundColor: articles[gamerId].favcolor} }>
+            <div className='gamer__info__item'>
+              <span className="gamer__title">Type</span> | {articles[gamerId].type}
+            </div>
             <div className='gamer__info__item'>
               <span className="gamer__title">HEIGHT</span> | {articles[gamerId].height}
             </div>
