@@ -57,16 +57,16 @@ const GamerProfile = () => {
     {
       id: 3,
       gamer: 'Chuy',
-      excerpt: `I am a gamer through and through`,
-      joindate: 'March 20th 2014',
+      excerpt: `I like to play games and eat food`,
+      joindate: 'March 20th 2020',
       image: uCHuy,
-      type: 'gamer',
-      height: '5\' 10\"',
-      weight: '180 lbs',
+      type: 'scrapper',
+      height: '5\' 8\"',
+      weight: '172 lbs',
       age: '25',
-      favgame: 'League of Legends',
-      favfood: 'Pizza',
-      favcolor: 'Blue'
+      favgame: 'Assassins Creed',
+      favfood: 'Enchiladas',
+      favcolor: 'Green'
     },
     {
       id: 4,
