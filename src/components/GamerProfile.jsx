@@ -15,16 +15,16 @@ const GamerProfile = () => {
     {
       id: 0,
       gamer: 'Franny Duran',
-      excerpt: `I am a gamer through and through`,
-      joindate: 'March 20th 2014',
+      excerpt: `Don't hate the player, hate the game.`,
+      joindate: 'August 8th 2014',
       image: FrannyImg,
-      type: 'gamer',
+      type: 'racer',
       height: '5\' 10\"',
-      weight: '180 lbs',
-      age: '25',
-      favgame: 'League of Legends',
+      weight: '165 lbs',
+      age: '24',
+      favgame: 'Need For Speed',
       favfood: 'Pizza',
-      favcolor: 'Blue'
+      favcolor: 'hotpink'
     },
     {
       id: 1,
@@ -43,7 +43,7 @@ const GamerProfile = () => {
     {
       id: 2,
       gamer: 'Joel',
-      excerpt: `I am a gamer through and through`,
+      excerpt: `Trust the process, not the RNG.`,
       joindate: 'March 20th 2014',
       image: JoelTank,
       type: 'physical',
@@ -52,12 +52,12 @@ const GamerProfile = () => {
       age: '24',
       favgame: 'Super Smash Bros',
       favfood: 'Pizza',
-      favcolor: 'Yellow'
+      favcolor: '#00b4d8'
     },
     {
       id: 3,
       gamer: 'Chuy',
-      excerpt: `I like to play games and eat food`,
+      excerpt: `Ready for the grind. Taking no L’s today!`,
       joindate: 'March 20th 2020',
       image: uCHuy,
       type: 'scrapper',
@@ -71,44 +71,44 @@ const GamerProfile = () => {
     {
       id: 4,
       gamer: 'Pablo',
-      excerpt: `I am a gamer through and through`,
+      excerpt: `Stay calm and respawn.`,
       joindate: 'January 20th 2021',
       image: PabloMinerals,
       type: 'gamer',
       height: '5\' 10\"',
-      weight: '170 lbs',
+      weight: '162 lbs',
       age: '24',
       favgame: 'Mortal Kombat',
-      favfood: 'Pizza',
-      favcolor: 'Hot Pink'
+      favfood: 'Tacos',
+      favcolor: 'darkorchid'
     },
     {
       id: 5,
       gamer: 'Peter',
-      excerpt: `I am a gamer through and through`,
-      joindate: 'March 20th 2014',
+      excerpt: `Keyboard warrior in the flesh.`,
+      joindate: 'February 20th 2018',
       image: PETERDAYS,
-      type: 'gamer',
-      height: '5\' 10\"',
-      weight: '180 lbs',
-      age: '25',
-      favgame: 'League of Legends',
+      type: 'creative',
+      height: '5\' 9\"',
+      weight: '159 lbs',
+      age: '24',
+      favgame: 'MineCraft',
       favfood: 'Pizza',
-      favcolor: 'Blue'
+      favcolor: 'midnightblue'
     },
     {
       id: 6,
       gamer: 'Roach',
-      excerpt: `I am a gamer through and through`,
+      excerpt: `Wake, game, repeat.`,
       joindate: 'March 20th 2014',
       image: ROACHATA,
       type: 'gamer',
-      height: '5\' 10\"',
+      height: '5\' 8\"',
       weight: '180 lbs',
-      age: '25',
+      age: '24',
       favgame: 'League of Legends',
-      favfood: 'Pizza',
-      favcolor: 'Blue'
+      favfood: 'Pancakes',
+      favcolor: '#90323d'
     },
     {
       id: 7,
