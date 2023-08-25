@@ -21,3 +21,8 @@
 a[href="https://www.u8gamers.com"]{
     color: rgba(27, 123, 171, 0.728);
 }
+
+.aboutSection h2{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
