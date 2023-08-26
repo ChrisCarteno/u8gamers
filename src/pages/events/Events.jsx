@@ -24,7 +24,7 @@ const Events = () => {
 
   return (
     <div className='events-page'>
-      <h2> Check Out Our Upcoming Events </h2>
+      <h2 className='events__title'> Check Out Our Upcoming Events </h2>
       <div className="events-cards">
       {articles.map(article => (
         <MultiActionAreaCard key={'event' + article.id} title={article.title} author={article.author} date={article.date} icon={article.icon}/>

@@ -14,12 +14,13 @@
 .aboutHeader{
     margin-top: 7rem;
     text-align: center;
-    font-family: 'Press Start 2P';
+    font-family: 'Press Start 2P', cursive;
+    color:#C3073F;
     border-radius: 10px;
 }
 
 a[href="https://www.u8gamers.com"]{
-    color: rgba(27, 123, 171, 0.728);
+    color: rgb(72, 194, 255);
 }
 
 .aboutSection h2{
