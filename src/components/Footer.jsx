@@ -46,7 +46,7 @@ const Footer = () => {
          </div>
        </div>
      </div>
-    <div className='copyright'>&copy; Copyright 2023 <a target="_blank" href='https://crm.weaversdev.com'>Weaversdev.com</a></div>
+    <div className='copyright'>&copy; Copyright 2023 <a target="_blank" without rel="noreferrer" href='https://crm.weaversdev.com'>Weaversdev.com</a></div>
     </div>
  </footer>
   )
