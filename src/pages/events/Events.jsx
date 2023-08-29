@@ -18,7 +18,7 @@ const Events = () => {
     {
       id: 2,
       title: 'Big Bear Summit',
-      date: 'January 26, 2024'
+      date: 'January 32, 2024'
     }
   ];
 
@@ -30,7 +30,6 @@ const Events = () => {
         <MultiActionAreaCard key={'event' + article.id} title={article.title} author={article.author} date={article.date} icon={article.icon}/>
       ))}
       </div>
-
     </div>
   )
 }
